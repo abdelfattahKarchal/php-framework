@@ -1,0 +1,23 @@
+{
+    "name": "abdelfattah-karchal/php-framework",
+    "description": "A php framework tutorial project",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Karchal Abdelfattah",
+            "email": "abdelfattah59@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+           "App\\": "src/",
+           "KarchalAbdelfattah\\Framework\\": "framework/"
+        }
+    },
+    "require": {
+        "symfony/var-dumper": "7.0.x-dev",
+        "nikic/fast-route": "2.0.x-dev"
+    }
+}
